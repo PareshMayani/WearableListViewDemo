@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.technotalkative.wearablelistviewdemo.MainActivity"
+    tools:deviceIds="wear_square">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple"
+        android:id="@+id/btnSimple"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnSimpleClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced"
+        android:id="@+id/btnAdvanced"
+        android:layout_below="@+id/btnSimple"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnAdvancedClick"/>
+</LinearLayout>
