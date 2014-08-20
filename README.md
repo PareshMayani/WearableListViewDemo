@@ -1,6 +1,8 @@
 WearableListViewDemo
 ====================
 
+For a detailed article, have a look at <a href="http://www.technotalkative.com/android-wear-part-5-wearablelistview/" target="_blank">WearableListView</a>.
+
 It contains two examples:
 <ol>
 <li>Simple WearableListView demo</li>
